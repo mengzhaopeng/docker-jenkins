@@ -1,9 +1,10 @@
-FROM jenkins/jenkins:2.138.2-alpine
+FROM jenkins/jenkins:2.150.2-alpine
 
 MAINTAINER mengzhaopeng <qiuranke@gmail.com>
 
 # Install plugins
 RUN /usr/local/bin/install-plugins.sh \
+  generic-webhook-trigger \
   git \
   kubernetes \
   ldap \
