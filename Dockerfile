@@ -1,4 +1,4 @@
-FROM jenkins/jenkins:2.150.2-alpine
+FROM jenkins/jenkins:2.190.2-alpine
 
 MAINTAINER mengzhaopeng <qiuranke@gmail.com>
 
